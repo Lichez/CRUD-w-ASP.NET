@@ -1,0 +1,186 @@
+﻿.TextBox {
+    height: auto;
+    background: #f2f2f2;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #999;
+    border-radius: 1px;
+    font-family: 'josefin_sansregular', sans-serif;
+    font-size: 15px;
+    outline: none;
+    -webkit-transition: all 250ms ease-in;
+    -moz-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+}
+
+.TextBox:focus {
+    background: #f9f9f9;
+    border-bottom: 1px solid #333;
+}
+
+.TextTwo {
+    width: 185px;
+    border: 2px solid rgb(173, 204, 204);
+    box-shadow: 0 0 27px rgb(204, 204, 204) inset;
+    transition: 500ms all ease;
+    padding: 3px 3px 3px 3px;
+}
+
+.DropDownList {
+    height: 27px;
+    width: 195px;
+    background: #f2f2f2;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #999;
+    border-radius: 1px;
+    font-family: 'josefin_sansregular', sans-serif;
+    font-size: 15px;
+    outline: none;
+}
+
+.TextBoxSearch {
+    width: 50px;
+    height: 27px;
+    background: #f2f2f2;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #999;
+    border-radius: 1px;
+    font-family: 'josefin_sansregular', sans-serif;
+    font-size: 15px;
+    outline: none;
+    background-image: url('https://telegra.ph/file/535a7c39e42366205b556.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+.TextBoxSearch:focus {
+    width: 195px
+
+}
+
+.Center {
+    text-align: center !important;
+}
+
+.mydatagrid
+{
+width: 80%;
+border: solid 2px black;
+min-width: 80%;
+}
+.header
+{
+background-color: #000;
+font-family: Arial;
+color: White;
+height: 25px;
+text-align: center;
+font-size: 16px;
+}
+
+.rows
+{
+background-color: #fff;
+font-family: Arial;
+font-size: 14px;
+color: #000;
+min-height: 25px;
+text-align: left;
+}
+.rows:hover
+{
+background-color: #5badff;
+color: #fff;
+}
+
+.mydatagrid a
+{
+background-color: Transparent;
+padding: 5px 5px 5px 5px;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+
+.mydatagrid a:hover
+{
+background-color: #000;
+color: #fff;
+}
+.mydatagrid span
+{
+background-color: #fff;
+color: #000;
+padding: 5px 5px 5px 5px;
+}
+.pager
+{
+background-color: #5badff;
+font-family: Arial;
+color: White;
+height: 30px;
+text-align: left;
+}
+
+.mydatagrid td
+{
+padding: 5px;
+}
+.mydatagrid th
+{
+padding: 5px;
+}
+
+.button {
+    background-color: #14AEFB;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #14AEFB;
+}
+
+.button1:hover {
+    background-color: #14AEFB;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #CC0000;
+}
+
+.button2:hover {
+    background-color: #CC0000;
+    color: white;
+    }
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid #2F2F2F;
+}
+
+.button3:hover{
+    background-color: #2F2F2F;
+    color: white;
+}
+
+
